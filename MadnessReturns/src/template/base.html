@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		{% block head %}
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>index</title>
+		<meta name="author" content="ezioruan" />
+
+		<link href="{{STATIC_URL}}css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="{{STATIC_URL}}css/docs.css" rel="stylesheet" type="text/css">
+		<link href="{{STATIC_URL}}css/prettify.css" rel="stylesheet" type="text/css">
+		<link href="{{STATIC_URL}}css/LightFace.css" rel="stylesheet" type="text/css">
+
+		<script type="text/javascript" src="{{STATIC_URL}}js/base64.js"></script>
+		<script type="text/javascript" src="{{STATIC_URL}}js/jquery.js"></script>
+		<script type="text/javascript" src="{{STATIC_URL}}js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="{{STATIC_URL}}js/prettify.js"></script>
+		<script type="text/javascript" src="{{STATIC_URL}}js/mootools-core-1.4.5-full-compat.js"></script>
+		<script type="text/javascript" src="{{STATIC_URL}}js/mootools-more-drag.js"></script>
+		<script type="text/javascript" src="{{STATIC_URL}}js/LightFace.js"></script>
+		<script type="text/javascript" src="{{STATIC_URL}}js/LightFace.IFrame.js"></script>
+		<script type="text/javascript" src="{{STATIC_URL}}js/LightFace.Image.js"></script>
+		<script type="text/javascript" src="{{STATIC_URL}}js/LightFace.Request.js"></script>
+		<script type="text/javascript" src="{{STATIC_URL}}js/LightFace.Static.js"></script>
+		{%  endblock %}
+		{% block head_extend%}
+		{% endblock %}
+	</head>
+	<body>
+		{% block body %}
+		{% endblock %}
+	</body>
+</html>
+
